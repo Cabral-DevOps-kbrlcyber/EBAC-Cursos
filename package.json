@@ -1,15 +1,15 @@
 {
-  "name": "sass",
+  "name": "mod-19_css_especidade",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass source/main.scss build/main.css --watch",
+    "sass": "sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.58.3"
+    "sass": "^1.59.3"
   }
 }
