@@ -1,15 +1,11 @@
 {
-  "name": "sass",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "sass": "sass source/main.scss build/main.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --watch -d dist"
   },
-  "author": "",
-  "license": "ISC",
+  "browserslist": "> 0.25%",
   "devDependencies": {
-    "sass": "^1.58.3"
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5"
   }
 }
