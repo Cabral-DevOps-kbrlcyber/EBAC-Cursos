@@ -1,15 +1,16 @@
 {
-  "name": "sass",
+  "name": "exercicio_cypress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass source/main.scss build/main.css --watch",
+    "cypress": "cypress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.58.3"
+    "cypress": "^12.6.0"
   }
 }
